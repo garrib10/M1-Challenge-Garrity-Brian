@@ -61,6 +61,10 @@ public class Customer {
     public void setShippingAddress(Address shippingAddress) {
         this.shippingAddress = shippingAddress;
     }
+    
+      public boolean isMember() {
+        return isMember;
+    }
 
     @Override
     public boolean equals(Object o) {
